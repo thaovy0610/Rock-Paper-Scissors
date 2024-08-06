@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+#container {
+    margin: 10px auto;
+    width: 600px;
+    text-align: center;
+    background-color:rgb(210, 250, 255);
+}
+
+h1 {
+    margin: 10px;
+    font-size: 32px;
+}
+
+#score {
+    display:flex;
+    justify-content:space-around;
+    margin: 10px 0px;
+}
+
+#option-btn button{
+    width: 80px;
+    padding: 5px 10px;
+    margin: 20px 10px;
+    background-color:lightpink;
+    border: 2px solid rgb(255, 232, 235)
+}
+
+#reset-btn {
+    width: 100px;
+    padding: 5px 0px;
+    background-color:rgb(255, 194, 154);
+    border: 2px solid rgb(255, 232, 235);
+    display: none;
+}
