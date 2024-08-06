@@ -50,6 +50,17 @@ function getRoundResult(playerChoice) {
     }
 }
 
+function resetGame() {
+    playerScore = 0
+    computerScore = 0
+    playerResult.textContent = 0
+    computerResult.textContent = 0
+    result.textContent = ""
+    winnerMsg.textContent = ""
+    optionBtn.style.display = 'block'
+    resetBtn.style.display = 'none'
+}
+
 rock.addEventListener("click", () => {
     getRoundResult("Rock")
 })
@@ -59,6 +70,8 @@ paper.addEventListener("click", () => {
 scissors.addEventListener("click", () => {
     getRoundResult("Scissors")
 })
+
+resetBtn.addEventListener("click", resetGame)
 
 // container.appendChild(result)
 // container.appendChild(winnerMsg)
