@@ -4,10 +4,10 @@ const paper = document.querySelector("#paper")
 const scissors = document.querySelector("#scissors")
 const playerResult = document.querySelector("#humanscore")
 const computerResult = document.querySelector("#computerscore")
-const result = document.createElement("p")
-const winnerMsg = document.createElement("p")
-const optionBtn = document.querySelector("#btn")
-const resetBtn = document.createElement("button")
+const result = document.querySelector("#round-result")
+const winnerMsg = document.querySelector("#game-result")
+const optionBtn = document.querySelector("#option-btn")
+const resetBtn = document.querySelector("#reset-btn")
 
 let playerScore = 0
 let computerScore = 0
@@ -60,6 +60,6 @@ scissors.addEventListener("click", () => {
     getRoundResult("Scissors")
 })
 
-container.appendChild(result)
-container.appendChild(winnerMsg)
+// container.appendChild(result)
+// container.appendChild(winnerMsg)
 // container.appendChild(resetBtn)

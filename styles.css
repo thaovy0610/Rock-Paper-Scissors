@@ -7,8 +7,9 @@
 }
 
 #container {
-    margin: 10px auto;
     width: 600px;
+    margin: 10px auto;
+    padding: 10px;
     text-align: center;
     background-color:rgb(210, 250, 255);
 }
@@ -27,15 +28,24 @@ h1 {
 #option-btn button{
     width: 80px;
     padding: 5px 10px;
-    margin: 20px 10px;
+    margin: 20px auto;
     background-color:lightpink;
     border: 2px solid rgb(255, 232, 235)
 }
 
 #reset-btn {
+    display: none;
     width: 100px;
     padding: 5px 0px;
+    margin: 15px auto;
     background-color:rgb(255, 194, 154);
     border: 2px solid rgb(255, 232, 235);
-    display: none;
+}
+
+#round-result {
+    margin: 10px auto 5px
+}
+
+#game-result {
+    margin: 10px auto 5px
 }
